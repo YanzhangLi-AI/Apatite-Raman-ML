@@ -43,6 +43,8 @@ if (choice %in% c(1, 3)) {
   # safe_source("code/binary_rf/07_cv_loocv.R")
   # safe_source("code/binary_rf/08_cv_losocv.R")
   # safe_source("code/binary_rf/09_permutation_test.R")
+  # safe_source("code/binary_rf/10_pca_2d_binary.R")
+  # safe_source("code/binary_rf/11_pca_3d_binary.R")
   
   cat("\nBinary RF workflow completed.\n")
 }
