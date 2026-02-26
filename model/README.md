@@ -34,7 +34,7 @@ install.packages(c("ranger", "dplyr"))
 From the repository root:
 
 ```r
-source("code/binary_rf/13_predict_with_rds.R")
+source("code/binary_rf/12_predict_with_rds.R")
 ```
 
 You will be prompted to select a CSV file containing the input features.
@@ -103,16 +103,6 @@ Users should interpret results in geological context.
 - This model was trained only on apatite Raman-derived features.
 - Predictions outside the training feature space may be unreliable.
 - The model does NOT replace geological or petrographic interpretation.
-
----
-
-## Reproducibility
-
-To regenerate the model from scratch:
-
-```r
-source("code/binary_rf/12_export_model_rds.R")
-```
 
 ---
 
