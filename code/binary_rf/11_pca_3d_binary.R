@@ -64,7 +64,7 @@ p_pca3d_bin <- plot_ly(
     legend = list(title = list(text = ""))
   )
 
-p_pca3d_bin
+print(p_pca3d_bin)
 
 # Optional: top contributors to PC3
 pca_load <- pca_res$rotation
